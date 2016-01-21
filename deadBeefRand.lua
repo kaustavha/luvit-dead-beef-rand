@@ -1,3 +1,15 @@
+--[[lit-meta
+name = 'kaustavha/luvit-dead-beef-rand'
+version = '2.0.0'
+license = 'MIT'
+homepage = "https://github.com/kaustavha/luvit-dead-beef-rand"
+description = "Deadbeef random based PRNG"
+tags = {"luvit", "crypto" }
+dependencies = { 
+  "luvit/luvit@2"
+}
+author = { name = 'Kaustav Haldar'}
+]]
 local bit = require('bit')
 local xor = bit.bxor
 local lshift = bit.lshift
